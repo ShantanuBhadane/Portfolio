@@ -1,0 +1,70 @@
+/* Centered divider above the footer */
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #00000000;
+    margin: 0 auto;
+  }
+  
+  /* Footer styling */
+  .footer {
+    padding: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.507);  
+    color: #ddd;             /* Light text color */
+  }
+  
+  /* Container to constrain width and add horizontal padding */
+  .footer-container {
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-container {
+      padding: 0 5rem;
+    }
+  }
+  
+  /* Footer content centered layout */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Social icons in a row with spacing */
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Social icon styling and hover effect */
+  .social-icon {
+    color: #ddd;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #1da1f2; /* Highlight color on hover */
+  }
+  
+  /* Footer bottom section with a subtle border */
+  .footer-bottom {
+    border-top: 1px solid #444444;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  /* Footer text styling */
+  .footer-text {
+    font-weight: 700;
+  }
+  
