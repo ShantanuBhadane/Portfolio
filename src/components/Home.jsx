@@ -54,7 +54,7 @@ function Home() {
             </h5>
 
             <div className="bottom">
-              <a href= {resume} download>
+              <a  href= {resume} download>
                 <button id="resumeBtn">Resume</button>
               </a>
             </div>
