@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import myImg from "../assets/images/githubprofile.jpg";
 
-import resume from "../../public/ShantanuBhadane.pdf"
+
 
 
 
@@ -52,7 +52,7 @@ function Home() {
             </h5>
 
             <div className="bottom">
-              <a href= {resume} download>
+              <a href= "/ShantanuBhadane.pdf" download>
                 <button id="resumeBtn">Resume</button>
               </a>
             </div>
