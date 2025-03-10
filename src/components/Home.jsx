@@ -52,7 +52,7 @@ function Home() {
             </h5>
 
             <div className="bottom">
-              <a href= "/ShantanuBhadaneResume.pdf" download>
+              <a href= "/shantanuBhadaneResume.pdf" download>
                 <button id="resumeBtn">Resume</button>
               </a>
             </div>
