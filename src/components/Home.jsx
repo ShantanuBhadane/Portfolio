@@ -3,7 +3,8 @@ import "../assets/styles/home.css";
 import "../assets/fonts/fonts.css";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import myImg from "../assets/images/githubprofile.jpg";
+// import myImg from "../assets/images/githubprofile.jpg";
+import Profile from "../assets/images/myImg.png"
 
 import resume from "../assets/images/shantanuBhadaneResume.pdf"
 
@@ -77,7 +78,7 @@ function Home() {
           </div>
 
           <div className="imageDiv">
-            <img src={myImg} alt="img" draggable="false" />
+            <img src={Profile} alt="img" draggable="false" />
           </div>
         </div>
 

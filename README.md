@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my personal portfolio website! This repository contains the source code for my portfolio project, where I showcase my skills, projects, and experiences.
+Welcome to my personal portfolio website! This repository contains the source code for my portfolio project, where I showcase my skills, projects, and education.
 
 
 <img src= "./portfolioprev.png">
@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/ShantanuBhadane/Portfolio.git
 
    cd portfolio
 

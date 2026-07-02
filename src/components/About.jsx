@@ -38,10 +38,10 @@ function About() {
                                     </h4>
                                     <span className="year">2022 — 2026</span>
                                     <p className="timeline-text">
-                                        Shri. Jaykumar Raval Institute Of Technology Dondaicha, Dhule
+                                        Shri. Jaykumar Raval Institute Of Technology Dondaicha, Dhule, Maharastra
                                     </p>
                                     <p className="timeline-text">
-                                        CGPA : 7.00 / 10
+                                        CGPA : 7.20 / 10
                                     </p>
                                 </li>
 

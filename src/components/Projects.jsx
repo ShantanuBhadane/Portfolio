@@ -6,6 +6,7 @@ import ProjectCard from './ProjectCard';
 import rockPaper from "../assets/images/rockpaper.png"
 import weatherAppImg from  "../assets/images/weatherapp.png"
 import todoImg from  "../assets/images/todo.png"
+import currencyApp from "../assets/images/currencyprev.png"
 
 
 const projects = [
@@ -29,6 +30,13 @@ const projects = [
         description: "• A weather app  which  displays  the weather data of a particular location using OpenWeatheMap  API",
         githubLink: "https://github.com/ShantanuBhadane/Weatherapp",
         techStack: ["ReactJs","API"]
+    },
+    {
+        image: currencyApp,
+        name: "Currency Converter App",
+        description: "• A simple React-based currency converter that allows users to convert amounts from one currency to another.",
+        githubLink: "https://github.com/ShantanuBhadane/currency-converter",
+        techStack: ["ReactJs","Tailwind CSS","Custom-hooks"]
     }
 ]
 

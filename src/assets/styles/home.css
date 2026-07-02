@@ -138,7 +138,7 @@
     color: #1e90ff;
     transform: scale(1.1);
   }
-  
+/*   
   .imageDiv > img {
     width: 290px;
     border-radius: 50%;
@@ -148,10 +148,28 @@
   }
   
   .imageDiv > img:hover {
-    box-shadow: 0px 0px 30px 10px #fff;
-    transform: scale(1.05);
-  }
+   filter: grayscale(0.3);
+   transform: scale(1.04);
+   rotate: 360deg;
+   transition: ease-in all 2s;
+   rotate: fixed;
+  } */
   
+  .imageDiv > img {
+    transition: transform 2s ease-in, filter 2s ease-in;
+    width: 290px;
+    border-radius: 50%;
+    object-fit: contain;
+    transition: 0.2s ease-in-out;
+    box-sizing: content-box;
+ }
+ 
+ .imageDiv > img:hover {
+    filter: grayscale(1.0);
+    transform: scale(1.04) ;
+ }
+ 
+
   /* ----------- RESPONSIVENESS ------------- */
   
   /* Small devices (max-width: 425px) */
@@ -172,6 +190,7 @@
       padding: 0;
       margin: 0;
     }
+    
   
     .textFields > h2 {
       font-size: 2.8rem;
@@ -288,7 +307,7 @@
     }
   
     #resumeBtn {
-      font-size: 1.1rem;
+      font-size: 1rem;
       padding: 12px 24px;
     }
   }
@@ -316,8 +335,8 @@
     }
   
     #resumeBtn {
-      font-size: 1.2rem;
-      padding: 14px 28px;
+      font-size: 1rem;
+      padding: 10px 20px;
     }
   }
   
