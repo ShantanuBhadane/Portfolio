@@ -138,27 +138,13 @@
     color: #1e90ff;
     transform: scale(1.1);
   }
-/*   
-  .imageDiv > img {
-    width: 290px;
-    border-radius: 50%;
-    object-fit: contain;
-    transition: 0.2s ease-in-out;
-    box-sizing: content-box;
-  }
-  
-  .imageDiv > img:hover {
-   filter: grayscale(0.3);
-   transform: scale(1.04);
-   rotate: 360deg;
-   transition: ease-in all 2s;
-   rotate: fixed;
-  } */
+
   
   .imageDiv > img {
+   
     transition: transform 2s ease-in, filter 2s ease-in;
-    width: 290px;
-    border-radius: 50%;
+    
+    border-radius: 20%;
     object-fit: contain;
     transition: 0.2s ease-in-out;
     box-sizing: content-box;
@@ -184,12 +170,7 @@
       text-align: center;
     }
   
-    .imageDiv > img {
-      width: 140px;
-      border: 2px solid #5256c8;
-      padding: 0;
-      margin: 0;
-    }
+ 
     
   
     .textFields > h2 {
